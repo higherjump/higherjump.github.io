@@ -5,7 +5,7 @@
 <title></title>
 </head> 
 <body>
-<input id="kg" value="80" > your weight kg </input> <br/>
+<input id="kg" value="80"> your weight kg </input> <br/>
 <input  id="m"  value="400"> the highest centimeter at jump </input> <br/>
 <input id="tall" value="240"> the highest centimeter standing </input> <br/>
     
@@ -13,7 +13,7 @@
   <nobr float ="left" position="absolute"> it is using your legs for lifting 
  <div id="thekg" float="left" position="absolute"> <p> </p> </div> kg </nobr> 
   <nobr float="left" position ="absolute"> for <div id="the" float= "left" position= "absolute" > <p> </p> </div> of seconds </nobr>  <p> </p>  
-</div> <div > </div > <p> </p> 
+</div> <div > </div > <p id="thethe" width="%"  heigth  height="%"> </p> 
  <br/> <script type="text/javascript"> 
 document.body. addEventListener ( 'input' ,
   function(   ) { 
@@ -24,14 +24,14 @@ v = Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) ,
   w  = Number ( tall / 6 ) ,  
 g = Number ( ( v^2 ) / ( m * 2 ) ) , 
  gg = Number ( ( g *  m ) / w ) , 
- 
-thekg = Number 
-( gg * kg / g ) ,  
+  
+
+thekg = Number( gg * kg / g ) , 
 the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
-%<
+ 
  document . getElementById ('thekg') . lastElementChild
-.remove ( ) ;   document . getElementById ('the') .       
- lastElementChild . remove ( ); 
+.remove ( ) ;   document . getElementById ('the') .   100    
+ lastElementChild . remove ( ); 100
  
   document . getElementById ('v'). lastElementChild.remove ();  
  
@@ -52,7 +52,7 @@ for ( embed = 0 ; embed < width ; embed++){
  ;}; 
  = (; ee == black ;){ ;){
  eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='black'" ].join("") )       
- }; }} ;   ;){   document      ;){ 100 e.<  .%.'length ee /  [ee] embed bgcolor overflow hidden height scrolling >Iframes not supported</iframe>innerHTML setAttributeNS
+ }; }} ;   ;){   document      ;){ the e.<  .%.'length ee /  [ee] embed bgcolor overflow hidden height scrolling >Iframes not supported</iframe>innerHTML setAttributeNS
  <  == 100% length%getElementsByTagName ;)overflow hidden 100" height no>no </iframe>item Number )].
 ;) .) getElementById  .''. ) .(' embed  ee  div embed embed "ee",ee, bgcolor createElement
   m */ }); </script> 
