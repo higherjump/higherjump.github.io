@@ -24,7 +24,7 @@ tall = document.getElementById('tall'). value ,
 v = Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) , 
   w  = Number ( tall / 6 ) ,        
 g = Number ( ( v^2 ) / ( m * 2 ) ),  
- gg = Number ( ( g *  m ) / w ) , 
+ gg = Number ( ( v^2 ) /    2* w    ) , 
 ee = v , atan = document . getElementById ("atan") , teta = Number ( Math.atan(v/ atan )/ Math . PI ),     
 embed = atan , black = Number( (( ee * Math . cos(teta) * embed * Math.sin( teta ) / g * (-(2^(2*2*2)-1)) )- 
  (-(2^(2*2*2)-1))) 
