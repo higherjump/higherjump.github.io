@@ -4,19 +4,19 @@
 <head>                     
 <title>higherjump</title>
 </head> 
-<body>
-    higherjump.
+<body>nobr
+    higherjump.<br/>
 <input id="kg" value="80" > your weight kg </input> <br/>
 <input  id="m"  value="400"> the highest centimeter at jump </input> <br/>
 <input id="tall" value="240"> the highest centimeter standing </input> <br/>
     
- <div> <nobr float= "left" position="absolute"> your velocity at take off is <div id="v" float="left" position="absolute"> <p> </p> </div> m/s </nobr>   
-  <nobr float ="left" position="absolute"> it is using your legs for lifting 
- <div id="thekg" float="left" position="absolute"> <p> </p> </div> kg </nobr> 
-  <nobr float="left" position="absolute"> for <div id="the" float="left" position ="absolute"> <p> </p> </div> of seconds </nobr>  <p> </p>  
+ <div> <     float= "left" position="absolute"> your velocity at take off is <div id="v" float="left" position="absolute"> <p> </p> </div> m/s </ >   
+  <     float ="left" position="absolute"> it is using your legs for lifting 
+ <div id="thekg" float="left" position="absolute"> <p> </p> </div> kg </    > 
+  <    float="left" position="absolute"> for <div id="the" float="left" position ="absolute"> <p> </p> </div> of seconds </    >  <p> </p>  
 </div> <button onclick ="location.assign ('./tall.html');"> the long jump </button> 
 <p> <button onclick = "location.assign ('./talland.html');"> the throw </button> 
- <br/> <script type="text/javascript"> 
+  <script type="text/javascript"> 
 document.body. addEventListener ( 'input' ,
   function(   ) { 
  var kg = document .getElementById('kg'). value ,
@@ -25,7 +25,7 @@ tall =  document.getElementById('tall'). value / 100 ,
 v = Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) , 
   w  = Number ( tall / 6 ) , 
 g = Number ( (v^2)  / ( m * 2 ) ) , 
- gg = Number ( (v^2) / ( 2 * w ) ) , 
+ gg = Number ( (v^2) / ( 2 * w )     ) , 
  
 thekg = Number 
 ( gg * kg / g ) ,  
