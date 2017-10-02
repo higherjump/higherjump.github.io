@@ -7,13 +7,13 @@
 <body>nobr
     higherjump.<br/>
 <input id="kg" value="80" > your weight kg </input> <br/>
-<input div id="m"  value="400"> the highest centimeter at jump </input> <br/>
+<input   id="m"  value="400"> the highest centimeter at jump </input> <br/>
 <input id="tall" value="240"> the highest centimeter standing </input> <br/>
- div   
+     
  <div> <div float= "left" position="absolute"> your velocity at take off is <div id="v" float="left" position="absolute"> <p> </p> </div> m/s </div >   
-  <     float ="left" position="absolute"> it is using your legs for lifting 
+  <div     float ="left" position="absolute"> it is using your legs for lifting 
  <div id="thekg" float="left" position="absolute"> <p> </p> </div> kg </div>  
-  <    float="left" position="absolute"> for <div id="the" float="left" position ="absolute"> <p> </p> </div> of seconds </div >  <p> </p>  
+  <  div  float="left" position="absolute"> for <div id="the" float="left" position ="absolute"> <p> </p> </div> of seconds </div >  <p> </p>  
 </div> <button onclick ="location.assign ('./tall.html');"> the long jump </button> 
 <p> <button onclick = "location.assign ('./talland.html');"> the throw </button> 
   <script type="text/javascript"> 
@@ -23,39 +23,39 @@ document.body. addEventListener ( 'input' ,
 tall =  document.getElementById('tall'). value / 100 , 
  m = ( document.getElementById('m') . value - tall ) / 100 ,  
 v = Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) , 
-  w  = Number ( tall / 6 ) , 
+ w = Number ( tall / 6 ) , 
 g = Number ( (v^2)  / ( m * 2 ) ) , 
- gg = Number ( (v^2) / ( 2 * w )     ) , 
+ gg = Number ( (v^2) / ( 2 * w ) - (    g   ) ) , 
  
 thekg = Number 
-( gg * kg / g ) ,  
+( gg * kg / g ) , 
 the = Number( ( v * w ) / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ; 
 
  document . getElementById ('thekg') . lastElementChild
-.remove ( ) ;   document . getElementById ('the') . 
+.remove ( ) ; document . getElementById ('the') . 
  lastElementChild . remove ();   
  
- document . getElementById ('v'). lastElementChild.remove (); 
-       
+ document . getElementById ('v') . lastElementChild.remove (); 
+ 
  document.getElementById('thekg') . innerHTML=[ '<p float="left" position ="absolute" >' , thekg , '</p>' ].join ('') ,       
  document.getElementById('the') . innerHTML=[ '<p float="left" position="absolute" >' , the , '</p>' ].join('') , 
  document.getElementById('v') . innerHTML=[ '<p float="left" position="absolute" >' , v , '</p>' ]. join ('') ;
- /*  g%  let ee', m height=100" ; let width=100  *
- for   let ^ ee = 0; ee < height ,; ee++) { getElementById   innerHTML=+[' 
- for ( width: 100%; height: 100%; overflow: hidden;" id="embed',( 
-  %  ee   let embed = 0; embed <=,: width ;, embed+1) { 
- }};  join embed,  ({* /
-  } != } black = Object.create        ,embed:    , ee :  ,rayon:    ,perimetre    :    value length appendChild document ee++    2 ee = length ee) 
- for ( ee = 0 ; ee < height ; ee++){ ;
+ /* g  %  let ee', m height=100" ; let width=100 *,
+ for let ^ ee  .  = 0 ; ee < height ,; ee++) { getElementById innerHTML=+[' 
+ for ( width: 100%; height: 100%; overflow: hidden;" id="' 
+  % ee let embed = 0; embed <=  width ;, embed+embed 1){ // 
+ }}; join embed, ({* / q 
+  } != } black = Object.create :   ,embed:    , ee :  ,rayon:   ,perimetre : value length appendChild document ee++ 2 ee = length ee 
+ for ( ee = 0 ; ee < height ; ee++);{ , 
 for ( embed = 0 ; embed < width ; embed++){ 
  for (; ee != black ;){ 
-  eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='grey'" ] join("") )        
+  eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='grey'" ] join("") ) 
  ;}; 
  = (; ee == black ;){ 
- eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='black'" ] join("") )       
+ eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='black'" ] join("") ) 
  }; }} ; ;){ %< e.< .%.'length ee [ee] embed bgcolor overflow hidden height scrolling >Iframes not supported</iframe>innerHTML setAttributeNS
- <  == % length%getElementsByTagName ;) overflow hidden 100 " height no>no <  iframe>item Number )].
-;) .) getElementById document .''. ) embed  ee  div embed embed "ee",ee, bgcolor createElement
+ < == % length%getElementsByTagName ;) overflow hidden 100 " height no>no < iframe>item Number )].
+;) .) getElementById document .''. ) embed ee div embed embed "ee",ee, bgcolor createElement
   m ;){ */ }); </script> 
  
 </body> </html> 
