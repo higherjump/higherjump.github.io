@@ -47,7 +47,7 @@ distance = Number ( document . getElementById ("distance") . value ) ,
  g = Number( ( v^2 ) / ( m * 2 ) ) , 
 q = Number( - g - 1/( (2 * 240) / 400 ) ) , 
   gg = Number(( ( v^2 ) / ( 2 * w )) - q ) , 
-  ee = v , atan =Number( document . getElementById ("atan") . value ), teta = Number ( Math.atan( v / atan )/ Math . PI ),     
+  ee = v , atan = Number( document . getElementById ("atan") . value ), teta = Number ( Math.atan( v / atan )/ Math . PI ),     
 embed = atan , black = Number( ( ( ee * Math . cos(teta) * embed * Math.sin( teta ) / g * (-(2^(2*2*2)-1)) ) - 
  (-(2^(2*2*2)-1))) 
                     / 2^(2*2)) , 
@@ -56,20 +56,20 @@ the = Number(  v * w  / ( ( w * 2 * gg ) ^ ( 1 / 2 ) )) , kg = Number ( document
 ; document . getElementById ('thekg') . lastElementChild 
           .remove () ; document .getElementById ('the') . 
  lastElementChild . remove (); document.getElementById ('q'). visibility = visible ; 
- for ( ; distance != Number ( 1 - 1 ) ; ){ gg =  Number( ( ( v^2 ) / distance * weight ) - q ) ; document . getElementById('q'). visibility = collapse ; lifting  ="holding" ; } , 
+ for ( ; distance > Number ( 1 - 1 ) ; ){ gg =  Number( ( ( v^2 ) / distance * weight ) - q ) ; document . getElementById('q'). visibility = collapse ; lifting  ="holding" ; } , 
 
  document . getElementById ('v') . lastElementChild.remove (); 
  
  document.getElementById('thekg') . 
-innerHTML=[ '<p  float="left" position ="absolute">' , thekg , '</p>' ].join ('') , 
- document.getElementById('the') . innerHTML=[ '<p     float="left" position="absolute" >' , the , '</p    >' ].join('') , 
- document.getElementById('v'). innerHTML=[ '<p float="left" position="absolute" >' , v , '</p>' ].join ('') ; 
+innerHTML=[ '< div   float="left" position ="absolute">' , thekg , '</ div  >' ].join ('') , 
+ document.getElementById('the') . innerHTML=[ '<p     float="left" position="absolute" >' , the , '</p     >' ].join('') , 
+ document.getElementById('v'). innerHTML=[ '<   div  float="left" position="absolute" >' , v , '</p     >' ].join ('') ; 
   for ( ee = 0 ; ee < height ; ee++){ 
-for ( embed = 0 ; ) embed < width ; embed++){ 
+for ( embed = 0 ; embed < width ; embed++){ 
  eval ([ "document . getElementById('embed", embed ,"ee",ee,"') . bgcolor = '#" , black.toString( 2^(2*2) 
  ), black.toString( 2^( 2 * 2 ) ) , black.toString( 2^(2*2) ) , "'" ].join("") 
- ;}}; }); /*  q /*2 > lastElementChild 1; "" . 2 > remove ; 2 )document."= getElementById g remove.1 ) ./)/^)*,.)
-"embed ))). 100 100 remove > lastElementChild .v - '' //  
-*/  </script> 
+ ;}}; }); /*  q /* p) 2 != lastElementChild 1; "" . 2 > remove  2 ; )document." p  = getElementById g remove. 1 )./)/^)*,.)
+"embed ))). 100 100 remove > lastElementChild .v - '' // 
+*/ </script> 
  
 </body> </html> 
