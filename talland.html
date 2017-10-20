@@ -56,10 +56,12 @@ the = Number(  v * w  / ( ( w * 2 * gg ) ^ ( 1 / 2 ) )) , kg = Number ( document
 ; document . getElementById ('thekg') . lastElementChild       
           .remove () ; document .getElementById ('the') . 
  lastElementChild . remove (); document.getElementById ('q'). hidden = "false" ; 
- for ( ; distance > 1 ; ){ gg = Number( ( v ^2 ) / ( distance * weight ) - q ) ; document . getElementById('q') . hidden = 'true';   lifting  ="holding" ; } , 
-    
- document . getElementById ('v') . lastElementChild.remove (); 
- 
+ for ( ; distance > 1 ; ){ gg = Number( ( v ^2 ) / ( distance * weight ) - q ) ;
+                          document . getElementById('q') . hidden = 'true'; 
+                          lifting  ="holding" ; }  
+     ;
+ document . getElementById ('v') . lastElementChild.remove ()   
+ ,
  document.getElementById('thekg') . 
 innerHTML=[ '<div float="left" position ="absolute">' , thekg , '</div >' ].join ('') , 
  document.getElementById('the') . innerHTML=[ '<div float="left" position="absolute" >' , the , '</div >' ].join('') , 
