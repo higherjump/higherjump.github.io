@@ -26,15 +26,15 @@ document.body. addEventListener ( 'input' ,
  var kg = document .getElementById('kg'). value ,
 tall =  document.getElementById('tall'). value / 100 , 
  m = ( document.getElementById('m') . value / 100 ) - tall , 
-v = Number  . paresInt  ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) , 
+v =    round .   Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) , 
  w = Number ( tall / 6 ) , 
 g = Number ( (v^2)  / ( m * 2 ) ) , 
  gg = Number ( (v^2) / ( 2 * w ) - ( - g - 1 ) ) , 
- // parseInt  
-thekg = Number . parseInt
+ // parseInt 
+thekg =   .   Number 
 ( gg * kg / g ) , 
-the = Number . parseInt ( ( v * w ) / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ; 
-// 
+the =    Number .      ( ( v * w ) / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ; 
+// parseInt  
  document . getElementById ('thekg') . lastElementChild 
 .remove ( ) ; document . getElementById ('the') . 
  lastElementChild . remove () ; 
