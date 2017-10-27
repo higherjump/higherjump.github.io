@@ -26,38 +26,38 @@ document.body. addEventListener ( 'input' ,
  var kg = document .getElementById('kg'). value ,
 tall =  document.getElementById('tall'). value / 100 , 
  m = ( document.getElementById('m') . value / 100 ) - tall , 
-v =    round .   Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) , 
+v =   Math .round ( Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) ) , 
  w = Number ( tall / 6 ) , 
 g = Number ( (v^2)  / ( m * 2 ) ) , 
- gg = Number ( (v^2) / ( 2 * w ) - ( - g - 1 ) ) , 
- // parseInt 
-thekg =   .   Number 
-( gg * kg / g ) , 
-the =    Number .      ( ( v * w ) / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ; 
-// parseInt  
- document . getElementById ('thekg') . lastElementChild 
-.remove ( ) ; document . getElementById ('the') . 
- lastElementChild . remove () ; 
+ gg = Number ( (v^2) / ( 2 * w ) - ( - g - 1 ) ) ,    
+thekg=     Math
+     . round ( Number 
+( gg * kg / g ) ) , 
+the =   Math  .round ( Number ( ( v * w ) / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ) ; 
+// parseInt 
+ document . getElementById ('thekg') . lastElementChild          
+.remove ( ) ; document . getElementById ('the') .   
+ lastElementChild . remove () ;   
  
  document . getElementById ('v') . lastElementChild.remove (); 
-  
+ 
  document.getElementById('thekg') . innerHTML=[ '<div float="left" position ="absolute" >' , thekg , '</div >' ].join ('') ,       
  document.getElementById('the') . innerHTML= [ '<div float="left" position="absolute">' , the , '</div >' ].join('') , 
  document.getElementById('v') . innerHTML=[ '<div float="left" position="absolute" >' , v , '</div >' ]. join ('') ;
- /* g  %  let ee', m height=100,;"// .; let width=100 * ,
- for let ^ ee    = 0 ; ee < height  ee++) { getElementById innerHTML=+[' 
- for ( width: 100%; height: 100%; overflow: hidden;" id="' 
-  % ee let embed = 0; embed <=  width ;, embed+embed ){  
- }}; join e mbed, ({* / q 
+ /* g ; % }}; let ee',  m height=100,;"// .; let width=100 * ,
+ for let ^ ee :  = 0 ; ee < height  ee++) { getElementById innerHTML=+[' 
+ for  width: 100%; height 100%; overflow: hidden;" id="' 
+  % ee let embed = 0; embed <= width ;, embed+embed    
+  join e mbed,){   {* / q {
   } != } black = Object.create :   ,embed:    , ee :  ,rayon:   ,perimetre : value length appendChild document ee++ 2 ee = length ee 
  for ( ee = 0 ; ee < height ; ee++);{ , 
-for ( embed = 0 ; embed < width ; embed++){ 
- for (; ee != black ;){ 
+for  embed = 0 ; embed < width ; embed++){ 
+ for (; ee != black ;  
   eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='grey'" ] join("") ) 
  ;}; 
- = (; ee == black ;){ 
+ = (; ee == black ;    { 
  eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='black'" ] join("") ) 
- }; }} ; ;){ %< e.< .%.'length ee [ee] embed bgcolor overflow hidden height scrolling >Iframes not supported</iframe>innerHTML setAttributeNS
+ }; }} ;  %< e.< .%.'length ee [ee] embed bgcolor overflow hidden height scrolling >Iframes not supported</iframe>innerHTML setAttributeNS
  < == % length%getElementsByTagName ;) overflow hidden 100 " height no>no < iframe>item Number )].
 ;) .) getElementById document .''. ) embed ee div embed embed "ee",ee, bgcolor createElement
   m ;){ */ }); </script> 
