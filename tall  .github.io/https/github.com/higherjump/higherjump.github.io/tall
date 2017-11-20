@@ -33,7 +33,7 @@ embed = atan , black = Number( (( ee * Math . cos(teta) * embed * Math.sin( teta
     
 thekg = Number( gg * kg / g ) , 
 the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) )) ;   
- 
+  
  document .embed getElementById ('thekg') . lastElementChild
  .remove ( ) ;   document . getElementById ('the') .       
  lastElementChild . remove ( ); #    
