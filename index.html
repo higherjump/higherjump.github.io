@@ -13,27 +13,27 @@
  <div> <div float ="left" position="absolute"> your velocity at take off is <div id="v" float="left" position="absolute"> <div float ="left" position ="absolute" > </div> </div>      div float ="left"    m/s </div> </div> 
  <div float ="left" position="absolute"> it is using your legs for lifting 
  <div id="thekg" float="left" position="absolute"> <div float ="left" position ="absolute"> </div> </div> <div float ="left"> kg </div> </div>  = = =" = / 
- <div float="left" position="absolute"> for <div id="the" float="left" position ="absolute"> <div float = "left" position ="absolute" > </div> </div> <div float ="left"   > = = " ="= = = = = seconds </div> </div> <p> </p>  
-<div> <button onclick ="location.assign ('./tall.html');"> the long jump </button>   
-<button onclick = "location.assign ('./talland.html');"> the throw </button>   
+ <div float="left" position="absolute"> for <div id="the" float="left" position ="absolute"> <div float ="left" position ="absolute" > </div> </div> <div float ="left"   > = = " ="= = = = = seconds </div> </div> <p> </p>  
+<div> <button onclick ="location.assign ('./tall.html');"> the long jump </button> 
+<button onclick ="location.assign ('./talland.html');"> the throw </button> 
+<button onclick ="location.assign ('./tall.html');"> the long jump </button> 
+ <button onclick ="location.assign ('./talland.html');"> the throw </button> 
 <button onclick ="location.assign ('./tall.html');"> the long jump </button> 
  <button onclick = "location.assign ('./talland.html');"> the throw </button> 
-<button onclick ="location.assign ('./tall.html');"> the long jump </button> 
- <button onclick = "location.assign ('./talland.html');"> the throw </button> 
-<div> </div > </div> <p> </p>  <script type="text/javascript"> 
+<div> </div> </div> <p> </p> <script type="text/javascript"> 
 document.body. addEventListener ( 'input' ,
   function(   ) { 
  var kg = document .getElementById('kg'). value ,
 tall =  document.getElementById('tall'). value / 100 , 
  m = ( document.getElementById('m') . value / 100 ) - tall , 
-v =   Math .round (  Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) ) , 
+v =   Math .round ( Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) ) , 
  w = Number ( tall / 6 ) , 
 g = Number ( (v^2)  / ( m * 2 ) ) , 
  gg = Number ( (v^2) / ( 2 * w ) - ( - g - 1 ) ) ,    
 thekg = Math
      . round ( Number 
 ( gg * kg / g ) ) , 
-the = Math . round ( Number ( ( v * w ) / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) * 100) / 100      ; 
+the = Math . round ( Number ( ( v * w ) / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) * 100) / 100 ; 
 // 
  document . getElementById ('thekg') . lastElementChild 
 .remove ( ) ; document . getElementById ('the') . 
