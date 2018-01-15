@@ -4,10 +4,10 @@
 <head> 
 <title></title> 
  
-</head><body>  <script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+</head> <body>  <script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
 <div> <button onclick="location.assign ('./.html');"> </button> 
 <button onclick ="location.assign ('https://paypal.me/mlml');">   feel free to donate or not using paypal    </button> 
- <button onclick ="location.assign ('. .html').">        </   button> 
+ <button onclick ="location.assign ('. .html').">        </button   > 
  <button onclick ="location.assign ('./talland.html');"> the throw </button>the throw weight kg </input> <br/>  
  <button onclick ="location.assign ('./tall.html');"> </button> 
   <div>  </div> </div>    
@@ -19,9 +19,9 @@
  <em float ="left" position="absolute" innerHTML="thelifting"> </em> 
  <em id="thekg" > <em float ="left"> </em> </em> <em > kg </em> <br/> 
  <div id="q" float="left" > at 45 degrees angle for <em id="the" float="left" position ="absolute"> <em > </em> </em> <em> seconds </em> 
- </div> <br/> </div> <div id="thethe" height="" width ="window.innerWidth"> </div> 
- import { physics , gravity , styler } from "popmotion" ;         <!-- <script src ="../popmotion/dist/  popmotion.global.min    "><   script-->       <script type="text/javascript"> 
- var gg , g = 1 ; const ball = document.querySelector('.ball'); 
+ </div> <br/> </div> <div id="thethe" height="" width ="window.innerWidth"> </div> <script type="text/javascript">  
+ import { physics , gravity , styler , value , selector } from 'popmotion' ;  // <script src ="../popmotion dist popmotion.global. min    "><  script <!--  --> 
+ var gg , g = 1 ; const ball = document.querySelector(  ".ball"  ); 
 const ballY = value(0, styler(ball).set('y')); 
  
 const gravity = physics({ 
@@ -32,7 +32,7 @@ const gravity = physics({
 listen(ball, 'mousedown touchstart').start(() => {
   gravity 
     .set(ballY.get())  
-    .setVelocity(- 270 *gg  );      
+    .setVelocity(- 270 * gg  );      
 });
 
      
